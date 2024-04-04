@@ -11,3 +11,14 @@ window.alert(`Hello World!`);
     
     
 */
+
+
+/*
+    How to accept user input
+
+        There are two way to take user input
+
+            1. EASY WAY : Window prompt
+            2. PROFESSIONAL WAY = HTML Textbox
+        
+*/

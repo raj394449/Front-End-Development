@@ -1,5 +1,7 @@
 /*
-    Data Types : Data type define the type that variable can store.
+    Data Types : 
+        *   Data type define the type that variable can store.
+        *   Data Type (like Number, Boolean & String) their first letter always be capital.
 
     Types of Data Type
         1. Primitive Type
@@ -19,14 +21,14 @@
 
 // Example :
 
-    let num = 10;
-    let isActive = true;
-    let str = 'Sanjay Raj';
+let num = 10;
+let isActive = true;
+let str = 'Sanjay Raj';
 
-    const student_details = {
-        fullName : 'Rohan Kumar',
-        age : 21,
-        gender : 'Male',
-        DOB : 2004
-    }
+const student_details = {
+    fullName: 'Rohan Kumar',
+    age: 21,
+    gender: 'Male',
+    DOB: 2004
+}
 

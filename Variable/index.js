@@ -25,24 +25,56 @@
 
  */
 
-// Variable Example
+// // Variable Example
 
-let fullName = 'Sanjay Kumar';
-let age = 21;
-let gender = 'Male';
-let isStudent = true
+// let fullName = 'Sanjay Kumar';
+// let age = 21;
+// let gender = 'Male';
+// let isStudent = true
 
-console.log(`Your Name is : ${fullName}`);
-console.log(`Your Age : ${age}`);
-console.log(`Your Gender : ${gender}`);
-console.log(`You are avilable ${isStudent}`);
-console.log(typeof fullName);
-console.log(typeof age);
-console.log(typeof gender);
-console.log(typeof isStudent);
+// console.log(`Your Name is : ${fullName}`);
+// console.log(`Your Age : ${age}`);
+// console.log(`Your Gender : ${gender}`);
+// console.log(`You are avilable ${isStudent}`);
+// console.log(typeof fullName);
+// console.log(typeof age);
+// console.log(typeof gender);
+// console.log(typeof isStudent);
 
-// Accessing Tags by Id
-document.getElementById("p1").textContent = `Your Name is : ${fullName}`;
-document.getElementById("p2").textContent = `Your age is : ${age}`;
-document.getElementById("p3").textContent = `Your gender is : ${gender}`;
-document.getElementById("p4").textContent = `You are student : ${isStudent}`
+// // Accessing Tags by Id
+// document.getElementById("p1").textContent = `Your Name is : ${fullName}`;
+// document.getElementById("p2").textContent = `Your age is : ${age}`;
+// document.getElementById("p3").textContent = `Your gender is : ${gender}`;
+// document.getElementById("p4").textContent = `You are student : ${isStudent}`
+
+/*
+    Constant Kyeword : 
+        *   A variable that can't be changed.
+        *   const Keyword used to declare constant variable.
+        *   constant variable write in capital letter.
+        
+    Example : 
+
+        const PI = 3.14;
+        // PI = 4 --> pi dosen't change.
+        const Adhaar_Id = 343434343434;
+*/
+
+const PI = 3.14;
+let radius = 4;
+let circumference;
+
+// radius = window.prompt('Enter the radius of circle : ');
+// radius = Number.(radius);
+// PI = 4; --> Not Possible
+
+// circumference = 2 * PI * radius;
+// console.log(circumference);
+
+document.getElementById('btn-submit').onclick = () => {
+    radius = document.getElementById('text-format').value;
+    radius = Number(radius);
+    circumference = 2 * PI * radius;
+    document.getElementById('result').textContent = circumference;
+};
+

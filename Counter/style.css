@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.countLabel{
+    display: block;
+    text-align: center;
+    font-size: 8em;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 6px 8px 6px 8px;
+    color:#fff;
+    background: #000;
+}
+
+.btn:hover{
+    background: #7dafc8;
+}

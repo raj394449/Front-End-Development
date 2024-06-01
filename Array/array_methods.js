@@ -19,27 +19,36 @@
 // console.log(val)
 // console.log(val1)
 
-{
-    let val = [45, 2, 5, 2, 6, 23, 6, 3, 89]
 
-    // // Syntax : slice(startIndex, endIndex)
-    // console.log(val.slice(2, 5))
-
-    // // Syntax : splice(startIndex, delCount, addNewElement)
-    // console.log(val.splice(2, 3))
-    console.log(val)
-
-    // Add Element
-    val.splice(2, 0, 23)
-    console.log(val)
-
-    // Delete Element
-    val.splice(2, 1)
-    console.log(val)
-
-    // Replace Element
-    val.splice(2, 1, 132)
-    console.log(val)
-
-    console.log(val.splice(3))
+let compare = (a, b) =>{
+    return a - b;
 }
+let num = [2, 6, 9, 1, 4, 11, 3]
+num.sort(compare)
+console.log(num)
+
+
+// {
+//     let val = [45, 2, 5, 2, 6, 23, 6, 3, 89]
+
+//     // // Syntax : slice(startIndex, endIndex)
+//     // console.log(val.slice(2, 5))
+
+//     // // Syntax : splice(startIndex, delCount, addNewElement)
+//     // console.log(val.splice(2, 3))
+//     console.log(val)
+
+//     // Add Element
+//     val.splice(2, 0, 23)
+//     console.log(val)
+
+//     // Delete Element
+//     val.splice(2, 1)
+//     console.log(val)
+
+//     // Replace Element
+//     val.splice(2, 1, 132)
+//     console.log(val)
+
+//     console.log(val.splice(3))
+// }

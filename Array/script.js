@@ -20,3 +20,11 @@
 //     console.log(mark)
 // }
 
+let marks = [34, 54, 36, 65, 45];
+marks.forEach((value, index) =>{
+    console.log(index," : ", value)
+});
+
+for(let i in marks){
+    console.log(i, " : ", marks[i])
+}

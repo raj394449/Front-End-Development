@@ -21,10 +21,30 @@
 // }
 
 let marks = [34, 54, 36, 65, 45];
-marks.forEach((value, index) =>{
-    console.log(index," : ", value)
-});
 
-for(let i in marks){
-    console.log(i, " : ", marks[i])
-}
+// marks.forEach((value, index) =>{
+//     console.log(index," : ", value)
+// });
+
+// for(let i in marks){
+//     console.log(i, " : ", marks[i])
+// }
+
+// // Mapping
+// let maps = marks.map((value, index, array) => {
+//     console.log(index, value, array);
+//     return value + index;
+// });
+// console.log(maps);
+
+// // filter method
+// let arr = marks.filter((a) => {
+//     return a > 40;
+// })
+// console.log(arr)
+
+// // reduce method
+// let newarr = marks.reduce((a1, a2) => {
+//     return a1 + a2;
+// })
+// console.log(newarr);

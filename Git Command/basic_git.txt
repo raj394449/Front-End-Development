@@ -1,0 +1,22 @@
+---------- Basic Git Command ----------
+
+1. SETUP & CONFIGURATION
+
+git config --global user.name "Your Name" -> Set Your Git Username
+git config --global user.email "Your Email Id" -> Set Your Email Id
+git config --global --list -> View Current Git Configuration
+
+2. PUSHING A REPOSITORY TO GITHUB
+
+git init -> Initialize a new git repository.
+git add . -> Stage all Changes.
+git commit -m "Initial Commit" -> Commit Changes with a message.
+git remote add origin <repository_url> -> Connect the local repo to remote repository.
+git branch -M main -> Rename the default branch to main.
+git push -u origin main -> Push the main branch to the remote repository.
+git push origin main -> For subsequent pushes.
+
+3. CLONE REPOSITORY
+
+git clone <repository_url> -> Clone a remote repository to your local machine.
+
